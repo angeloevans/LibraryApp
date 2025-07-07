@@ -16,13 +16,25 @@
     </div>
 </header>
 <body>
-<div>
+<div class="container">
+    <h1>List of Books</h1>
     <div id="details">
     </div>
-</div>
 
+    <form class="addBook">
+        <h2>Add New Book</h2>
+        <label for="author">Author:</label>
+        <input type="text" id="author" placeholder="add Author">
+        <label for="title">Book Title:</label>
+        <input type="text" id="title" placeholder="add book title">
+        <label for="pages">no of pages:</label>
+        <input type="text" id ="pages" placeholder="add number of pages">
+        <label for="read">have you read this book?</label>
+        <input type="checkbox" id="read">
+        <button type="button" id="addBtn">Add</button>
+    </form>
+</div>
 
 <script src="index.js"></script>
 </body>
-
 </html>
