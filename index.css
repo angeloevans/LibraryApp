@@ -1,3 +1,17 @@
-.container {
+.book-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+}
+
+.addBook {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #f8f8f8;
   display: grid;
 }
+
